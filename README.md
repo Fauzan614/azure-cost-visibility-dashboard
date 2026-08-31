@@ -7,7 +7,7 @@ An interactive Power BI dashboard designed to monitor Azure spending, analyze se
 - 💰 Total Azure Cost monitoring
 - 📅 Monthly Budget tracking
 - 💵 Budget Remaining calculation
-- 📈 Budget Utilization percentage
+- 📈 Budget Utilization percentage 
 - ✅ Budget Status monitoring
 - 📊 Cost analysis by Azure Service
 - 📈 Daily Cost Trend analysis
