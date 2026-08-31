@@ -22,6 +22,24 @@ An interactive Power BI dashboard designed to monitor Azure spending, analyze se
 - DAX
 - Data Visualization
 
+## 🎯 Project Objective
+
+The objective of this project is to provide a clear and interactive view of cloud spending. The dashboard helps users understand Azure costs across different services and resource groups while monitoring budget utilization.
+
+🚀 Future Improvements
+Connect with real Azure Cost Management data
+Automate cost data exports
+Store cost data in Azure Storage
+Add automated refresh
+Configure cost threshold alerts
+Integrate additional cost optimization recommendations
+👨‍💻 Author
+
+## Fauzan Sayeed
+
+BTech Computer Science Engineering Student | Aspiring Azure Cloud Engineer
+
+
 ## 📐 Key Calculations
 
 ```DAX
