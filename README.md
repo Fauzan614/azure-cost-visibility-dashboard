@@ -24,8 +24,6 @@ An interactive Power BI dashboard designed to monitor Azure spending, analyze se
 
 ## 📐 Key Calculations
 
-### Budget Remaining
-
 ```DAX
 Budget Remaining =
 MAX('Azure Cost Data'[Budget]) - SUM('Azure Cost Data'[Cost])
