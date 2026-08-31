@@ -14,7 +14,7 @@ An interactive Power BI dashboard designed to monitor Azure spending, analyze se
 - 🗂️ Cost analysis by Resource Group
 - 🔎 Interactive filters for Resource Group, Service Name, and Date
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used 
 
 - Microsoft Azure
 - Azure Cost Management concepts
