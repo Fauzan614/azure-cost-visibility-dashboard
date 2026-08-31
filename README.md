@@ -61,3 +61,60 @@ IF(
     "Within Budget",
     "Over Budget"
 )
+```
+# Version 2 – Azure Integration
+
+## ☁️ Real Azure Cost Data Integration
+
+Version 2 extends the original Power BI dashboard by integrating Azure cloud services for automated cost data collection.
+
+### Architecture
+
+Azure Subscription  
+↓  
+Azure Cost Management  
+↓  
+Scheduled Cost Export  
+↓  
+Azure Blob Storage  
+↓  
+Power BI Dashboard  
+
+### 🔄 Data Flow
+
+1. Azure Cost Management collects subscription usage and cost information.
+2. A scheduled export generates cost and usage data.
+3. The exported data is stored in Azure Blob Storage.
+4. Power BI can import and transform the exported data.
+5. The dashboard visualizes cloud spending and budget metrics.
+
+### ⚙️ Azure Services Used
+
+- Azure for Students Subscription
+- Azure Cost Management
+- Azure Cost Management Exports
+- Azure Blob Storage
+- Azure Storage Account
+
+### 📊 Version 2 Improvements
+
+- Configured automated Azure Cost and Usage export
+- Created Azure Blob Storage container for exported cost data
+- Added a real Azure cost data query in Power BI
+- Added Data Source Status indicator
+- Added Last Dashboard Update indicator
+- Added an Architecture & Data Flow page
+
+> **Note:** The Azure subscription is newly created, so the initial real cost export may not yet contain usage rows. The Power BI dashboard continues to use sample data until real Azure usage data becomes available. The integration is configured for future real-data updates.
+
+## 📁 Updated Project Structure
+
+```text
+azure-cost-visibility-dashboard/
+│
+├── Azure_Cost_Visibility_Dashboard.pbix
+├── AZURE PROJECT 2 - REAL COST INTEGRATION.pbix
+├── dashboard.png
+├── dashboard-v2.png
+├── architecture.png
+└── README.md
