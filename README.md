@@ -107,7 +107,9 @@ Power BI Dashboard
 
 > **Note:** The Azure subscription is newly created, so the initial real cost export may not yet contain usage rows. The Power BI dashboard continues to use sample data until real Azure usage data becomes available. The integration is configured for future real-data updates.
 
-## 🚨 ### 📊 Version 2.1-ImprovementsAutomated Budget Monitoring & Alerts
+# Version 2.1 – Azure Integration With Automation
+
+##📊 Version 2.1:Improvements in Automated Budget Monitoring & Alerts
 
 The project includes Azure Cost Management budget monitoring to track cloud spending automatically.
 
