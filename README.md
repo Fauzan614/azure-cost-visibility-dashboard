@@ -118,3 +118,28 @@ azure-cost-visibility-dashboard/
 ├── dashboard-v2.png
 ├── architecture.png
 └── README.md
+```
+
+## 🚨 ### 📊 Version 2.1-ImprovementsAutomated Budget Monitoring & Alerts
+
+The project includes Azure Cost Management budget monitoring to track cloud spending automatically.
+
+### Budget Automation Features
+
+- Monthly Azure cost budget configured
+- Automated daily cost monitoring
+- Email alerts at 50% budget utilization
+- Warning alerts at 80% budget utilization
+- Critical alerts at 100% budget utilization
+
+### Automation Flow
+
+Azure Cost Management
+        ↓
+Monthly Budget Monitoring
+        ↓
+50% / 80% / 100% Threshold Evaluation
+        ↓
+Automatic Email Notifications
+
+> Note: Azure cost alerts are evaluated based on available Cost Management data and may not trigger instantly when resource usage occurs.
