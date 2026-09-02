@@ -107,19 +107,6 @@ Power BI Dashboard
 
 > **Note:** The Azure subscription is newly created, so the initial real cost export may not yet contain usage rows. The Power BI dashboard continues to use sample data until real Azure usage data becomes available. The integration is configured for future real-data updates.
 
-## 📁 Updated Project Structure
-
-```text
-azure-cost-visibility-dashboard/
-│
-├── Azure_Cost_Visibility_Dashboard.pbix
-├── AZURE PROJECT 2 - REAL COST INTEGRATION.pbix
-├── dashboard.png
-├── dashboard-v2.png
-├── architecture.png
-└── README.md
-```
-
 ## 🚨 ### 📊 Version 2.1-ImprovementsAutomated Budget Monitoring & Alerts
 
 The project includes Azure Cost Management budget monitoring to track cloud spending automatically.
@@ -143,3 +130,14 @@ Monthly Budget Monitoring
 Automatic Email Notifications
 
 > Note: Azure cost alerts are evaluated based on available Cost Management data and may not trigger instantly when resource usage occurs.
+
+## 📁 Updated Project Structure
+
+```text
+azure-cost-visibility-dashboard/
+│
+├── Azure_Cost_Visibility_Dashboard.pbix
+├── AZURE PROJECT 2 - REAL COST INTEGRATION.pbix
+├── AZURE PROJECT 2.1 - REAL COST INTEGRATION WITH AUTOMATION.pbix
+└── README.md
+```
