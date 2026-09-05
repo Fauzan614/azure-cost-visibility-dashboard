@@ -247,17 +247,7 @@ Potential future enhancements include:
 - Infrastructure-as-Code deployment
 - Automated reporting
 
-## Repository Structure
-
-Azure-Cost-Visibility-Dashboard/
-│
-├── README.md
-│
-└── Azure-Cost-Visibility-Dashboard.pbix
-
-The Power BI file contains the dashboard, data model, Power Query transformations, and DAX measures.
-
-## Resume Project Description
+## Project Description
 
 Azure Cost Visibility & Governance Dashboard | Azure, Power BI, DAX
 
